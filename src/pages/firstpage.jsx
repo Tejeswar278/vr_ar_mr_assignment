@@ -22,7 +22,7 @@ function Firstpage() {
         counte++
         if(count === 3){
             console.log("exit to second page")
-            window.location.href = "https://bespoke-gingersnap-0bd343.netlify.app/secondpage"
+            document.location.href = "https://bespoke-gingersnap-0bd343.netlify.app/secondpage"
         }
         if(count === 2){
           console.log("set-int count 2")

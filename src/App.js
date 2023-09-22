@@ -1,9 +1,6 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import bgvideo from "./assets/loadingsteam.mp4";
-import secondpage from "./pages/secondpage";
-import { BrowserRouter as Router, Routes, Route }
-    from 'react-router-dom';
 
 function App() {
   const [text,setText] = useState("inhale")
@@ -22,15 +19,15 @@ coui++
     let interval = setInterval(function() {
       console.log(counte,"no of time it is getting called")
       counte++
-      if(count == 3){
+      if(count === 3){
         setText("exhale")
       }
-      if(count == 2){
+      if(count === 2){
         setText("hold")
         setTime(3000)
       }
       
-      if(count == 1){
+      if(count === 1){
         setTime(2000)
       }
       count++

@@ -22,7 +22,7 @@ function Firstpage() {
         counte++
         if(count === 3){
             console.log("exit to second page")
-            document.location.href = "https://fascinating-creponne-b3488f.netlify.app/"
+            document.location.href = "https://lucent-profiterole-e2b983.netlify.app/"
         }
         if(count === 2){
           console.log("set-int count 2")
